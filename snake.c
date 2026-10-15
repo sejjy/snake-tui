@@ -1,3 +1,11 @@
+/*
+ * snake-tui: A text-based snake game (C version)
+ *
+ * Author:  sejjy <sejjymvm@gmail.com>
+ * Date:    October 16, 2026
+ * License: MIT
+ */
+
 #include <curses.h>
 #include <locale.h>
 #include <stdbool.h>

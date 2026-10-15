@@ -1,4 +1,10 @@
 #!/usr/bin/env bash
+#
+# snake-tui: A text-based snake game (Bash version)
+#
+# Author:  sejjy <sejjymvm@gmail.com>
+# Date:    October 16, 2026
+# License: MIT
 
 TIMEOUT=0.15
 GRID_WIDTH=20
