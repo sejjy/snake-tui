@@ -1,47 +1,59 @@
-<div align="center">
-
-## 🐍 snake.sh
+## snake-tui
 
 A text-based snake game
 
-| ![Preview](./preview.png) |
-| :-----------------------: |
-
-</div>
+```text
+  score:   0   hiscore:   0
+┌─────────────────────────────────────────┐
+│ . . . . . . . . . . . . . . . . . . . . │
+│ . . . . . . . . . . . . . . . . . . . . │
+│ . . . . . . . . . . . . . . . . . . . . │
+│ . . . . . . . . . . . . . . . . . . . . │
+│ . . . . . . . . . . . . . . . . . . . . │
+│ . . . . . . . . . . . . . . . . . . . . │
+│ . . . . . . . . . . . . . . . . . . . . │
+│ . . . . . . . . . . . . . . . . . . . . │
+│ . . . . . . . . . . . . . . . . . . . . │
+│ . . . . . . . . . . . . . . . . . . . . │
+│ . . . . o 0 . . . . @ . . . . . . . . . │
+│ . . . . . . . . . . . . . . . . . . . . │
+│ . . . . . . . . . . . . . . . . . . . . │
+│ . . . . . . . . . . . . . . . . . . . . │
+│ . . . . . . . . . . . . . . . . . . . . │
+│ . . . . . . . . . . . . . . . . . . . . │
+│ . . . . . . . . . . . . . . . . . . . . │
+│ . . . . . . . . . . . . . . . . . . . . │
+│ . . . . . . . . . . . . . . . . . . . . │
+│ . . . . . . . . . . . . . . . . . . . . │
+└─────────────────────────────────────────┘
+  move: w a s d   exit: esc
+```
 
 #
 
-### How to play
+### Play
 
-To play without downloading, run:
-
-```bash
-bash <(curl -s https://raw.githubusercontent.com/sejjy/snake/main/snake.sh)
-```
-
-Otherwise, clone the repository and run `./snake.sh`:
+To play without cloning, run:
 
 ```bash
-git clone https://github.com/sejjy/snake.git
-cd snake
-./snake.sh
+bash <(curl https://raw.githubusercontent.com/sejjy/snake-tui/refs/heads/main/snake.bash)
 ```
 
-Or:
+Otherwise, clone the repository:
 
 ```bash
-git clone https://github.com/sejjy/snake.git && cd snake && ./snake.sh
+git clone https://github.com/sejjy/snake-tui.git
+cd snake-tui
 ```
 
-#
+and run the Bash version:
 
-### Known issue
+```bash
+./snake.bash
+```
 
-- The apple can sometimes spawn in the body
+or compile and run the C version:
 
-#
-
-### References
-
-- [ANSI Escape Sequences](https://gist.github.com/fnky/458719343aabd01cfb17a3a4f7296797)
-- [snake-term](https://github.com/abuharth/snake-term)
+```bash
+make
+```
