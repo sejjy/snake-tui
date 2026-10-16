@@ -57,3 +57,10 @@ or compile and run the C version:
 ```bash
 make run
 ```
+
+#
+
+### See also
+
+- [snake-gui](https://github.com/sejjy/snake-gui) - A graphical snake game in C
+  using raylib
