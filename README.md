@@ -36,7 +36,7 @@ A text-based snake game
 To play without cloning, run:
 
 ```bash
-bash <(curl https://raw.githubusercontent.com/sejjy/snake-tui/refs/heads/main/snake.bash)
+bash <(curl -fsSL https://raw.githubusercontent.com/sejjy/snake-tui/main/snake.bash)
 ```
 
 Otherwise, clone the repository:
