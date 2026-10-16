@@ -55,5 +55,5 @@ and run the Bash version:
 or compile and run the C version:
 
 ```bash
-make
+make run
 ```
